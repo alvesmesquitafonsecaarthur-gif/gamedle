@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamedle - Adivinhe o Jogo do Dia</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #121214;
+            color: #e1e1e6;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        h1 {
+            color: #996dff;
+            font-size: 2.5rem;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+        }
+
+        p.subtitle {
+            color: #a8a8b3;
+            font-size: 1rem;
+        }
+
+        .search-box {
+            position: relative;
+            width: 100%;
+            max-width: 500px;
+            margin-bottom: 30px;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 14px 18px;
+            border-radius: 8px;
+            border: 2px solid #29292e;
+            background-color: #202024;
+            color: #fff;
+            font-size: 1rem;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        input[type="text"]:focus {
+            border-color: #996dff;
+        }
+
+        .suggestions {
+            position: absolute;
+            top: 100%;
+            left: 0; right: 0;
+            background-color: #202024;
+            border: 1px solid #29292e;
+            border-radius: 0 0 8px 8px;
+            max-height: 220px;
+            overflow-y: auto;
+            z-index: 100;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.5);
+        }
+
+        .suggestion-item {
+            padding: 12px 16px;
+            cursor: pointer;
+            border-bottom: 1px solid #29292e;
+            font-size: 0.95rem;
+        }
+
+        .suggestion-item:hover {
+            background-color: #2f2f36;
+            color: #996dff;
+        }
+
+        .board {
+            width: 100%;
+            max-width: 850px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .grid-header, .grid-row {
+            display: grid;
+            grid-template-columns: 2.2fr 1fr 1.5fr 1.8fr 1.2fr;
+            gap: 8px;
+            text-align: center;
+        }
+
+        .grid-header .cell {
+            background-color: #202024;
+            color: #a8a8b3;
+            font-weight: bold;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            padding: 10px 5px;
+            border-radius: 6px;
+        }
+
+        .cell {
+            padding: 14px 8px;
+            border-radius: 6px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            min-height: 55px;
+            word-break: break-word;
+            animation: flip 0.5s ease;
+        }
+
+        @keyframes flip {
+            0% { transform: rotateX(-90deg); opacity: 0; }
+            100% { transform: rotateX(0deg); opacity: 1; }
+        }
+
+        .cell.correct { background-color: #04d361; color: #000; }
+        .cell.wrong { background-color: #f75a68; color: #fff; }
+        .cell.higher::after { content: " ⬆️"; }
+        .cell.lower::after { content: " ⬇️"; }
+
+        .win-card {
+            background: linear-gradient(135deg, #8257e5, #04d361);
+            color: #fff;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            margin-bottom: 25px;
+            display: none;
+        }
+
+        .win-card h2 { margin-bottom: 10px; font-size: 1.8rem; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🎮 GAMEDLE</h1>
+        <p class="subtitle">Adivinhe o jogo secreto de uma lista com +150 títulos populares!</p>
+    </header>
+
+    <div id="winCard" class="win-card">
+        <h2>🎉 Parabéns! Você acertou!</h2>
+        <p>Você descobriu o jogo do dia. Volte amanhã para um novo desafio!</p>
+    </div>
+
+    <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Digite o nome do jogo (ex: Elden Ring, GTA V, Witcher)..." autocomplete="off">
+        <div id="suggestions" class="suggestions" style="display: none;"></div>
+    </div>
+
+    <div class="board">
+        <div class="grid-header">
+            <div class="cell">Jogo</div>
+            <div class="cell">Ano</div>
+            <div class="cell">Gênero</div>
+            <div class="cell">Estúdio</div>
+            <div class="cell">Plataforma</div>
+        </div>
+        <div id="guesses"></div>
+    </div>
+
+    <script>
+        let allGames = [];
+        let secretGame = null;
+        let guessedIds = new Set();
+        let gameOver = false;
+
+        // Função para calcular o jogo do dia com base na data do sistema (no navegador)
+        function getSeedFromDate() {
+            const today = new Date();
+            const dateStr = today.getFullYear().toString() +
+                            (today.getMonth() + 1).toString().padStart(2, '0') +
+                            today.getDate().toString().padStart(2, '0');
+            let hash = 0;
+            for (let i = 0; i < dateStr.length; i++) {
+                hash = (hash << 5) - hash + dateStr.charCodeAt(i);
+                hash |= 0;
+            }
+            return Math.abs(hash);
+        }
+
+        async function initGame() {
+            try {
+                const res = await fetch('jogos.json');
+                allGames = await res.json();
+                
+                // Define o jogo do dia de forma determinística
+                const seed = getSeedFromDate();
+                secretGame = allGames[seed % allGames.length];
+            } catch (err) {
+                console.error("Erro ao carregar o banco de dados:", err);
+            }
+        }
+
+        const searchInput = document.getElementById('searchInput');
+        const suggestionsDiv = document.getElementById('suggestions');
+        const guessesDiv = document.getElementById('guesses');
+        const winCard = document.getElementById('winCard');
+
+        searchInput.addEventListener('input', () => {
+            const query = searchInput.value.toLowerCase().trim();
+            if (!query || gameOver) {
+                suggestionsDiv.style.display = 'none';
+                return;
+            }
+
+            const matches = allGames.filter(g => g.nome.toLowerCase().includes(query) && !guessedIds.has(g.id));
+            if (matches.length === 0) {
+                suggestionsDiv.style.display = 'none';
+                return;
+            }
+
+            suggestionsDiv.innerHTML = matches.map(g => `
+                <div class="suggestion-item" onclick="makeGuess(${g.id})">${g.nome}</div>
+            `).join('');
+            suggestionsDiv.style.display = 'block';
+        });
+
+        function makeGuess(id) {
+            if (gameOver) return;
+
+            searchInput.value = '';
+            suggestionsDiv.style.display = 'none';
+            guessedIds.add(id);
+
+            const guessedGame = allGames.find(g => g.id === id);
+            if (!guessedGame) return;
+
+            const isWin = guessedGame.id === secretGame.id;
+
+            // Lógica de comparação do ano
+            let anoClass = 'wrong';
+            if (guessedGame.ano === secretGame.ano) {
+                anoClass = 'correct';
+            } else if (secretGame.ano > guessedGame.ano) {
+                anoClass += ' higher';
+            } else {
+                anoClass += ' lower';
+            }
+
+            const row = document.createElement('div');
+            row.className = 'grid-row';
+            row.innerHTML = `
+                <div class="cell ${guessedGame.nome === secretGame.nome ? 'correct' : 'wrong'}">${guessedGame.nome}</div>
+                <div class="cell ${anoClass}">${guessedGame.ano}</div>
+                <div class="cell ${guessedGame.genero === secretGame.genero ? 'correct' : 'wrong'}">${guessedGame.genero}</div>
+                <div class="cell ${guessedGame.estudio === secretGame.estudio ? 'correct' : 'wrong'}">${guessedGame.estudio}</div>
+                <div class="cell ${guessedGame.plataforma === secretGame.plataforma ? 'correct' : 'wrong'}">${guessedGame.plataforma}</div>
+            `;
+
+            guessesDiv.prepend(row);
+
+            if (isWin) {
+                gameOver = true;
+                winCard.style.display = 'block';
+                searchInput.disabled = true;
+            }
+        }
+
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.search-box')) {
+                suggestionsDiv.style.display = 'none';
+            }
+        });
+
+        initGame();
+    </script>
+</body>
+</html>

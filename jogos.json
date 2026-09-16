@@ -1,0 +1,1242 @@
+[
+  {
+    "id": 1,
+    "nome": "The Witcher 3: Wild Hunt",
+    "ano": 2015,
+    "genero": "RPG de Ação",
+    "estudio": "CD Projekt Red",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 2,
+    "nome": "Elden Ring",
+    "ano": 2022,
+    "genero": "RPG de Ação",
+    "estudio": "FromSoftware",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 3,
+    "nome": "Minecraft",
+    "ano": 2011,
+    "genero": "Sandbox",
+    "estudio": "Mojang",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 4,
+    "nome": "Grand Theft Auto V",
+    "ano": 2013,
+    "genero": "Ação / Aventura",
+    "estudio": "Rockstar Games",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 5,
+    "nome": "God of War",
+    "ano": 2018,
+    "genero": "Ação / Aventura",
+    "estudio": "Santa Monica Studio",
+    "plataforma": "PlayStation / PC"
+  },
+  {
+    "id": 6,
+    "nome": "Hollow Knight",
+    "ano": 2017,
+    "genero": "Metroidvania",
+    "estudio": "Team Cherry",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 7,
+    "nome": "Red Dead Redemption 2",
+    "ano": 2018,
+    "genero": "Ação / Aventura",
+    "estudio": "Rockstar Games",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 8,
+    "nome": "The Legend of Zelda: Breath of the Wild",
+    "ano": 2017,
+    "genero": "Ação / Aventura",
+    "estudio": "Nintendo",
+    "plataforma": "Nintendo"
+  },
+  {
+    "id": 9,
+    "nome": "The Elder Scrolls V: Skyrim",
+    "ano": 2011,
+    "genero": "RPG",
+    "estudio": "Bethesda",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 10,
+    "nome": "Dark Souls III",
+    "ano": 2016,
+    "genero": "RPG de Ação",
+    "estudio": "FromSoftware",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 11,
+    "nome": "Cyberpunk 2077",
+    "ano": 2020,
+    "genero": "RPG de Ação",
+    "estudio": "CD Projekt Red",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 12,
+    "nome": "League of Legends",
+    "ano": 2009,
+    "genero": "MOBA",
+    "estudio": "Riot Games",
+    "plataforma": "PC"
+  },
+  {
+    "id": 13,
+    "nome": "VALORANT",
+    "ano": 2020,
+    "genero": "FPS Tactical",
+    "estudio": "Riot Games",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 14,
+    "nome": "Counter-Strike 2",
+    "ano": 2023,
+    "genero": "FPS Tactical",
+    "estudio": "Valve",
+    "plataforma": "PC"
+  },
+  {
+    "id": 15,
+    "nome": "Fortnite",
+    "ano": 2017,
+    "genero": "Battle Royale",
+    "estudio": "Epic Games",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 16,
+    "nome": "Apex Legends",
+    "ano": 2019,
+    "genero": "Battle Royale",
+    "estudio": "Respawn Entertainment",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 17,
+    "nome": "Portal 2",
+    "ano": 2011,
+    "genero": "Puzzle / FPS",
+    "estudio": "Valve",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 18,
+    "nome": "Half-Life 2",
+    "ano": 2004,
+    "genero": "FPS",
+    "estudio": "Valve",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 19,
+    "nome": "Super Mario Odyssey",
+    "ano": 2017,
+    "genero": "Plataforma 3D",
+    "estudio": "Nintendo",
+    "plataforma": "Nintendo"
+  },
+  {
+    "id": 20,
+    "nome": "Persona 5 Royal",
+    "ano": 2019,
+    "genero": "JRPG",
+    "estudio": "Atlus",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 21,
+    "nome": "The Last of Us Part I",
+    "ano": 2013,
+    "genero": "Ação / Sobrevivência",
+    "estudio": "Naughty Dog",
+    "plataforma": "PlayStation / PC"
+  },
+  {
+    "id": 22,
+    "nome": "Resident Evil 4 Remake",
+    "ano": 2023,
+    "genero": "Survival Horror",
+    "estudio": "Capcom",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 23,
+    "nome": "Fallout 4",
+    "ano": 2015,
+    "genero": "RPG",
+    "estudio": "Bethesda",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 24,
+    "nome": "Terraria",
+    "ano": 2011,
+    "genero": "Sandbox / Sobrevivência",
+    "estudio": "Re-Logic",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 25,
+    "nome": "Stardew Valley",
+    "ano": 2016,
+    "genero": "Simulação / RPG",
+    "estudio": "ConcernedApe",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 26,
+    "nome": "Hades",
+    "ano": 2020,
+    "genero": "Roguelike",
+    "estudio": "Supergiant Games",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 27,
+    "nome": "Celeste",
+    "ano": 2018,
+    "genero": "Plataforma",
+    "estudio": "Maddy Makes Games",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 28,
+    "nome": "Undertale",
+    "ano": 2015,
+    "genero": "RPG Indie",
+    "estudio": "Toby Fox",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 29,
+    "nome": "Rocket League",
+    "ano": 2015,
+    "genero": "Esporte / Ação",
+    "estudio": "Psyonix",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 30,
+    "nome": "Doom Eternal",
+    "ano": 2020,
+    "genero": "FPS",
+    "estudio": "id Software",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 31,
+    "nome": "Halo Infinite",
+    "ano": 2021,
+    "genero": "FPS",
+    "estudio": "343 Industries",
+    "plataforma": "Xbox / PC"
+  },
+  {
+    "id": 32,
+    "nome": "Mass Effect 2",
+    "ano": 2010,
+    "genero": "RPG Sci-Fi",
+    "estudio": "BioWare",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 33,
+    "nome": "BioShock",
+    "ano": 2007,
+    "genero": "FPS / RPG",
+    "estudio": "Irrational Games",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 34,
+    "nome": "Horizon Zero Dawn",
+    "ano": 2017,
+    "genero": "RPG de Ação",
+    "estudio": "Guerrilla Games",
+    "plataforma": "PlayStation / PC"
+  },
+  {
+    "id": 35,
+    "nome": "Bloodborne",
+    "ano": 2015,
+    "genero": "RPG de Ação",
+    "estudio": "FromSoftware",
+    "plataforma": "PlayStation"
+  },
+  {
+    "id": 36,
+    "nome": "Ghost of Tsushima",
+    "ano": 2020,
+    "genero": "Ação / Aventura",
+    "estudio": "Sucker Punch",
+    "plataforma": "PlayStation / PC"
+  },
+  {
+    "id": 37,
+    "nome": "Death Stranding",
+    "ano": 2019,
+    "genero": "Ação / Sci-Fi",
+    "estudio": "Kojima Productions",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 38,
+    "nome": "Genshin Impact",
+    "ano": 2020,
+    "genero": "RPG de Ação Gacha",
+    "estudio": "miHoYo",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 39,
+    "nome": "Monster Hunter: World",
+    "ano": 2018,
+    "genero": "RPG de Ação",
+    "estudio": "Capcom",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 40,
+    "nome": "Baldur's Gate 3",
+    "ano": 2023,
+    "genero": "CRPG",
+    "estudio": "Larian Studios",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 41,
+    "nome": "Starfield",
+    "ano": 2023,
+    "genero": "RPG Sci-Fi",
+    "estudio": "Bethesda",
+    "plataforma": "Xbox / PC"
+  },
+  {
+    "id": 42,
+    "nome": "Metal Gear Solid V: The Phantom Pain",
+    "ano": 2015,
+    "genero": "Stealth / Ação",
+    "estudio": "Kojima Productions",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 43,
+    "nome": "Uncharted 4: A Thief's End",
+    "ano": 2016,
+    "genero": "Ação / Aventura",
+    "estudio": "Naughty Dog",
+    "plataforma": "PlayStation / PC"
+  },
+  {
+    "id": 44,
+    "nome": "Batman: Arkham Knight",
+    "ano": 2015,
+    "genero": "Ação / Aventura",
+    "estudio": "Rocksteady Studios",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 45,
+    "nome": "Marvel's Spider-Man",
+    "ano": 2018,
+    "genero": "Ação / Aventura",
+    "estudio": "Insomniac Games",
+    "plataforma": "PlayStation / PC"
+  },
+  {
+    "id": 46,
+    "nome": "Animal Crossing: New Horizons",
+    "ano": 2020,
+    "genero": "Simulação",
+    "estudio": "Nintendo",
+    "plataforma": "Nintendo"
+  },
+  {
+    "id": 47,
+    "nome": "Super Smash Bros. Ultimate",
+    "ano": 2018,
+    "genero": "Luta",
+    "estudio": "Nintendo",
+    "plataforma": "Nintendo"
+  },
+  {
+    "id": 48,
+    "nome": "Mario Kart 8 Deluxe",
+    "ano": 2017,
+    "genero": "Corrida",
+    "estudio": "Nintendo",
+    "plataforma": "Nintendo"
+  },
+  {
+    "id": 49,
+    "nome": "Sekiro: Shadows Die Twice",
+    "ano": 2019,
+    "genero": "Ação",
+    "estudio": "FromSoftware",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 50,
+    "nome": "Cuphead",
+    "ano": 2017,
+    "genero": "Run and Gun",
+    "estudio": "Studio MDHR",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 51,
+    "nome": "Dead Cells",
+    "ano": 2018,
+    "genero": "Roguelite / Metroidvania",
+    "estudio": "Motion Twin",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 52,
+    "nome": "Slay the Spire",
+    "ano": 2019,
+    "genero": "Roguelike Deckbuilder",
+    "estudio": "MegaCrit",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 53,
+    "nome": "Subnautica",
+    "ano": 2018,
+    "genero": "Sobrevivência",
+    "estudio": "Unknown Worlds",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 54,
+    "nome": "Outer Wilds",
+    "ano": 2019,
+    "genero": "Exploração / Mistério",
+    "estudio": "Mobius Digital",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 55,
+    "nome": "Disco Elysium",
+    "ano": 2019,
+    "genero": "RPG Narrativo",
+    "estudio": "ZA/UM",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 56,
+    "nome": "NieR: Automata",
+    "ano": 2017,
+    "genero": "RPG de Ação",
+    "estudio": "PlatinumGames",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 57,
+    "nome": "Life is Strange",
+    "ano": 2015,
+    "genero": "Aventura Narrativa",
+    "estudio": "DONTNOD",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 58,
+    "nome": "Detroit: Become Human",
+    "ano": 2018,
+    "genero": "Aventura Narrativa",
+    "estudio": "Quantic Dream",
+    "plataforma": "PlayStation / PC"
+  },
+  {
+    "id": 59,
+    "nome": "Alan Wake 2",
+    "ano": 2023,
+    "genero": "Survival Horror",
+    "estudio": "Remedy Entertainment",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 60,
+    "nome": "Resident Evil Village",
+    "ano": 2021,
+    "genero": "Survival Horror",
+    "estudio": "Capcom",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 61,
+    "nome": "Street Fighter 6",
+    "ano": 2023,
+    "genero": "Luta",
+    "estudio": "Capcom",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 62,
+    "nome": "Tekken 8",
+    "ano": 2024,
+    "genero": "Luta",
+    "estudio": "Bandai Namco",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 63,
+    "nome": "Mortal Kombat 11",
+    "ano": 2019,
+    "genero": "Luta",
+    "estudio": "NetherRealm Studios",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 64,
+    "nome": "Dota 2",
+    "ano": 2013,
+    "genero": "MOBA",
+    "estudio": "Valve",
+    "plataforma": "PC"
+  },
+  {
+    "id": 65,
+    "nome": "World of Warcraft",
+    "ano": 2004,
+    "genero": "MMORPG",
+    "estudio": "Blizzard Entertainment",
+    "plataforma": "PC"
+  },
+  {
+    "id": 66,
+    "nome": "Diablo IV",
+    "ano": 2023,
+    "genero": "Action RPG / Hack and Slash",
+    "estudio": "Blizzard Entertainment",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 67,
+    "nome": "Path of Exile",
+    "ano": 2013,
+    "genero": "Action RPG",
+    "estudio": "Grinding Gear Games",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 68,
+    "nome": "StarCraft II",
+    "ano": 2010,
+    "genero": "Estratégia RTS",
+    "estudio": "Blizzard Entertainment",
+    "plataforma": "PC"
+  },
+  {
+    "id": 69,
+    "nome": "Age of Empires II: Definitive Edition",
+    "ano": 2019,
+    "genero": "Estratégia RTS",
+    "estudio": "World's Edge",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 70,
+    "nome": "Civilization VI",
+    "ano": 2016,
+    "genero": "Estratégia 4X",
+    "estudio": "Firaxis Games",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 71,
+    "nome": "Euro Truck Simulator 2",
+    "ano": 2012,
+    "genero": "Simulação",
+    "estudio": "SCS Software",
+    "plataforma": "PC"
+  },
+  {
+    "id": 72,
+    "nome": "Cities: Skylines",
+    "ano": 2015,
+    "genero": "Simulação de Cidade",
+    "estudio": "Colossal Order",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 73,
+    "nome": "Sea of Thieves",
+    "ano": 2018,
+    "genero": "Ação / Aventura",
+    "estudio": "Rare",
+    "plataforma": "Xbox / PC / PS5"
+  },
+  {
+    "id": 74,
+    "nome": "Rust",
+    "ano": 2018,
+    "genero": "Sobrevivência",
+    "estudio": "Facepunch Studios",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 75,
+    "nome": "ARK: Survival Evolved",
+    "ano": 2017,
+    "genero": "Sobrevivência",
+    "estudio": "Studio Wildcard",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 76,
+    "nome": "Phasmophobia",
+    "ano": 2020,
+    "genero": "Horror Cooperativo",
+    "estudio": "Kinetic Games",
+    "plataforma": "PC"
+  },
+  {
+    "id": 77,
+    "nome": "Lethal Company",
+    "ano": 2023,
+    "genero": "Horror Cooperativo",
+    "estudio": "Zeekerss",
+    "plataforma": "PC"
+  },
+  {
+    "id": 78,
+    "nome": "Palworld",
+    "ano": 2024,
+    "genero": "Sobrevivência / Crafting",
+    "estudio": "Pocketpair",
+    "plataforma": "Xbox / PC / PS5"
+  },
+  {
+    "id": 79,
+    "nome": "Helldivers 2",
+    "ano": 2024,
+    "genero": "FPS / Shooter Cooperativo",
+    "estudio": "Arrowhead Game Studios",
+    "plataforma": "PlayStation / PC"
+  },
+  {
+    "id": 80,
+    "nome": "Satisfactory",
+    "ano": 2020,
+    "genero": "Construção de Fábrica",
+    "estudio": "Coffee Stain Studios",
+    "plataforma": "PC"
+  },
+  {
+    "id": 81,
+    "nome": "Factorio",
+    "ano": 2020,
+    "genero": "Construção de Fábrica",
+    "estudio": "Wube Software",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 82,
+    "nome": "RimWorld",
+    "ano": 2018,
+    "genero": "Simulação de Colônia",
+    "estudio": "Ludeon Studios",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 83,
+    "nome": "Fallout: New Vegas",
+    "ano": 2010,
+    "genero": "RPG",
+    "estudio": "Obsidian Entertainment",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 84,
+    "nome": "Left 4 Dead 2",
+    "ano": 2009,
+    "genero": "FPS Cooperativo",
+    "estudio": "Valve",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 85,
+    "nome": "Team Fortress 2",
+    "ano": 2007,
+    "genero": "FPS Class-Based",
+    "estudio": "Valve",
+    "plataforma": "PC"
+  },
+  {
+    "id": 86,
+    "nome": "Borderlands 2",
+    "ano": 2012,
+    "genero": "Looter Shooter",
+    "estudio": "Gearbox Software",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 87,
+    "nome": "Destiny 2",
+    "ano": 2017,
+    "genero": "Looter Shooter",
+    "estudio": "Bungie",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 88,
+    "nome": "Warframe",
+    "ano": 2013,
+    "genero": "Looter Shooter",
+    "estudio": "Digital Extremes",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 89,
+    "nome": "No Man's Sky",
+    "ano": 2016,
+    "genero": "Exploração Espacial",
+    "estudio": "Hello Games",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 90,
+    "nome": "Dying Light",
+    "ano": 2015,
+    "genero": "Survival Horror / Parkour",
+    "estudio": "Techland",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 91,
+    "nome": "Dead by Daylight",
+    "ano": 2016,
+    "genero": "Horror Assimétrico",
+    "estudio": "Behaviour Interactive",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 92,
+    "nome": "It Takes Two",
+    "ano": 2021,
+    "genero": "Plataforma Co-op",
+    "estudio": "Hazelight Studios",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 93,
+    "nome": "Overcooked! 2",
+    "ano": 2018,
+    "genero": "Co-op Party",
+    "estudio": "Team17",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 94,
+    "nome": "Stray",
+    "ano": 2022,
+    "genero": "Aventura / Cyberpunk",
+    "estudio": "BlueTwelve Studio",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 95,
+    "nome": "Dave the Diver",
+    "ano": 2023,
+    "genero": "Aventura / Gestão",
+    "estudio": "MINTROCKET",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 96,
+    "nome": "Dredge",
+    "ano": 2023,
+    "genero": "Horror / Pesca",
+    "estudio": "Black Salt Games",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 97,
+    "nome": "Vampire Survivors",
+    "ano": 2022,
+    "genero": "Roguelite Bullet Hell",
+    "estudio": "poncle",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 98,
+    "nome": "God of War Ragnarök",
+    "ano": 2022,
+    "genero": "Ação / Aventura",
+    "estudio": "Santa Monica Studio",
+    "plataforma": "PlayStation / PC"
+  },
+  {
+    "id": 99,
+    "nome": "The Legend of Zelda: Tears of the Kingdom",
+    "ano": 2023,
+    "genero": "Ação / Aventura",
+    "estudio": "Nintendo",
+    "plataforma": "Nintendo"
+  },
+  {
+    "id": 100,
+    "nome": "Overwatch 2",
+    "ano": 2022,
+    "genero": "FPS Hero Shooter",
+    "estudio": "Blizzard Entertainment",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 101,
+    "nome": "Gears of War 3",
+    "ano": 2011,
+    "genero": "Third-Person Shooter",
+    "estudio": "Epic Games",
+    "plataforma": "Xbox"
+  },
+  {
+    "id": 102,
+    "nome": "Far Cry 3",
+    "ano": 2012,
+    "genero": "FPS",
+    "estudio": "Ubisoft",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 103,
+    "nome": "Assassin's Creed IV Black Flag",
+    "ano": 2013,
+    "genero": "Ação / Aventura",
+    "estudio": "Ubisoft",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 104,
+    "nome": "Super Mario Bros. Wonder",
+    "ano": 2023,
+    "genero": "Plataforma 2D",
+    "estudio": "Nintendo",
+    "plataforma": "Nintendo"
+  },
+  {
+    "id": 105,
+    "nome": "Chrono Trigger",
+    "ano": 1995,
+    "genero": "JRPG Clássico",
+    "estudio": "Square",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 106,
+    "nome": "Final Fantasy VII Remake",
+    "ano": 2020,
+    "genero": "JRPG",
+    "estudio": "Square Enix",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 107,
+    "nome": "Final Fantasy XVI",
+    "ano": 2023,
+    "genero": "Action RPG",
+    "estudio": "Square Enix",
+    "plataforma": "PlayStation / PC"
+  },
+  {
+    "id": 108,
+    "nome": "Castlevania: Symphony of the Night",
+    "ano": 1997,
+    "genero": "Metroidvania",
+    "estudio": "Konami",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 109,
+    "nome": "Metroid Dread",
+    "ano": 2021,
+    "genero": "Metroidvania",
+    "estudio": "MercurySteam / Nintendo",
+    "plataforma": "Nintendo"
+  },
+  {
+    "id": 110,
+    "nome": "Diablo II: Resurrected",
+    "ano": 2021,
+    "genero": "Action RPG",
+    "estudio": "Blizzard Entertainment",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 111,
+    "nome": "Kingdom Hearts III",
+    "ano": 2019,
+    "genero": "Action RPG",
+    "estudio": "Square Enix",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 112,
+    "nome": "Monster Hunter Rise",
+    "ano": 2021,
+    "genero": "RPG de Ação",
+    "estudio": "Capcom",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 113,
+    "nome": "Devil May Cry 5",
+    "ano": 2019,
+    "genero": "Hack and Slash",
+    "estudio": "Capcom",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 114,
+    "nome": "Bayonetta 2",
+    "ano": 2014,
+    "genero": "Hack and Slash",
+    "estudio": "PlatinumGames",
+    "plataforma": "Nintendo"
+  },
+  {
+    "id": 115,
+    "nome": "Nioh 2",
+    "ano": 2020,
+    "genero": "RPG de Ação",
+    "estudio": "Team Ninja",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 116,
+    "nome": "Lies of P",
+    "ano": 2023,
+    "genero": "Soulslike",
+    "estudio": "NEOWIZ",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 117,
+    "nome": "Remnant II",
+    "ano": 2023,
+    "genero": "Soulslike Shooter",
+    "estudio": "Gunfire Games",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 118,
+    "nome": "Deep Rock Galactic",
+    "ano": 2020,
+    "genero": "FPS Co-op",
+    "estudio": "Ghost Ship Games",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 119,
+    "nome": "Risk of Rain 2",
+    "ano": 2020,
+    "genero": "Roguelite TPS",
+    "estudio": "Hopoo Games",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 120,
+    "nome": "Spelunky 2",
+    "ano": 2020,
+    "genero": "Roguelike Plataforma",
+    "estudio": "Mossmouth",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 121,
+    "nome": "Inscryption",
+    "ano": 2021,
+    "genero": "Deckbuilder / Mistério",
+    "estudio": "Daniel Mullins Games",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 122,
+    "nome": "Hotline Miami",
+    "ano": 2012,
+    "genero": "Ação Top-Down",
+    "estudio": "Dennaton Games",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 123,
+    "nome": "Katana Zero",
+    "ano": 2019,
+    "genero": "Ação Plataforma",
+    "estudio": "Askiソフト",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 124,
+    "nome": "Ori and the Will of the Wisps",
+    "ano": 2020,
+    "genero": "Metroidvania",
+    "estudio": "Moon Studios",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 125,
+    "nome": "Inside",
+    "ano": 2016,
+    "genero": "Puzzle Plataforma",
+    "estudio": "Playdead",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 126,
+    "nome": "Little Nightmares II",
+    "ano": 2021,
+    "genero": "Horror Plataforma",
+    "estudio": "Tarsier Studios",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 127,
+    "nome": "Subnautica: Below Zero",
+    "ano": 2021,
+    "genero": "Sobrevivência",
+    "estudio": "Unknown Worlds",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 128,
+    "nome": "Green Hell",
+    "ano": 2019,
+    "genero": "Sobrevivência",
+    "estudio": "Creepy Jar",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 129,
+    "nome": "The Forest",
+    "ano": 2018,
+    "genero": "Survival Horror",
+    "estudio": "Endnight Games",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 130,
+    "nome": "Sons of the Forest",
+    "ano": 2024,
+    "genero": "Survival Horror",
+    "estudio": "Endnight Games",
+    "plataforma": "PC"
+  },
+  {
+    "id": 131,
+    "nome": "Slime Rancher",
+    "ano": 2017,
+    "genero": "Aventura / Simulação",
+    "estudio": "Monomi Park",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 132,
+    "nome": "Untitled Goose Game",
+    "ano": 2019,
+    "genero": "Stealth Puzzle",
+    "estudio": "House House",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 133,
+    "nome": "Fall Guys",
+    "ano": 2020,
+    "genero": "Party Battle Royale",
+    "estudio": "Mediatonic",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 134,
+    "nome": "Among Us",
+    "ano": 2018,
+    "genero": "Dedução Social",
+    "estudio": "Innersloth",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 135,
+    "nome": "Brawlhalla",
+    "ano": 2017,
+    "genero": "Luta Plataforma",
+    "estudio": "Blue Mammoth Games",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 136,
+    "nome": "Paladins",
+    "ano": 2018,
+    "genero": "Hero Shooter",
+    "estudio": "Evil Mojo Games",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 137,
+    "nome": "Smite",
+    "ano": 2014,
+    "genero": "MOBA TPS",
+    "estudio": "Hi-Rez Studios",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 138,
+    "nome": "Guns, Gore & Cannoli",
+    "ano": 2015,
+    "genero": "Ação 2D",
+    "estudio": "Crazy Monkey Studios",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 139,
+    "nome": "A Way Out",
+    "ano": 2018,
+    "genero": "Aventura Co-op",
+    "estudio": "Hazelight Studios",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 140,
+    "nome": "Heavy Rain",
+    "ano": 2010,
+    "genero": "Aventura Narrativa",
+    "estudio": "Quantic Dream",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 141,
+    "nome": "Beyond: Two Souls",
+    "ano": 2013,
+    "genero": "Aventura Narrativa",
+    "estudio": "Quantic Dream",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 142,
+    "nome": "Until Dawn",
+    "ano": 2015,
+    "genero": "Survival Horror Narrativo",
+    "estudio": "Supermassive Games",
+    "plataforma": "PlayStation / PC"
+  },
+  {
+    "id": 143,
+    "nome": "The Dark Pictures Anthology: House of Ashes",
+    "ano": 2021,
+    "genero": "Horror Narrativo",
+    "estudio": "Supermassive Games",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 144,
+    "nome": "Slay the Princess",
+    "ano": 2023,
+    "genero": "Visual Novel Horror",
+    "estudio": "Black Tabby Games",
+    "plataforma": "PC"
+  },
+  {
+    "id": 145,
+    "nome": "VA-11 Hall-A",
+    "ano": 2016,
+    "genero": "Simulação / Cyberpunk",
+    "estudio": "Sukeban Games",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 146,
+    "nome": "Coffee Talk",
+    "ano": 2020,
+    "genero": "Simulação Narrativa",
+    "estudio": "Toge Productions",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 147,
+    "nome": "Papers, Please",
+    "ano": 2013,
+    "genero": "Simulação Puzzle",
+    "estudio": "Lucas Pope",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 148,
+    "nome": "Return of the Obra Dinn",
+    "ano": 2018,
+    "genero": "Investigação Puzzle",
+    "estudio": "Lucas Pope",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 149,
+    "nome": "Her Story",
+    "ano": 2015,
+    "genero": "Investigação FMV",
+    "estudio": "Sam Barlow",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 150,
+    "nome": "Immortals Fenyx Rising",
+    "ano": 2020,
+    "genero": "Ação / Aventura",
+    "estudio": "Ubisoft",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 151,
+    "nome": "Assassin's Creed Valhalla",
+    "ano": 2020,
+    "genero": "RPG de Ação",
+    "estudio": "Ubisoft",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 152,
+    "nome": "Watch Dogs 2",
+    "ano": 2016,
+    "genero": "Ação / Hacker",
+    "estudio": "Ubisoft",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 153,
+    "nome": "Tom Clancy's Rainbow Six Siege",
+    "ano": 2015,
+    "genero": "FPS Tactical",
+    "estudio": "Ubisoft",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 154,
+    "nome": "Far Cry 6",
+    "ano": 2021,
+    "genero": "FPS",
+    "estudio": "Ubisoft",
+    "plataforma": "Multi"
+  },
+  {
+    "id": 155,
+    "nome": "Prince of Persia: The Lost Crown",
+    "ano": 2024,
+    "genero": "Metroidvania",
+    "estudio": "Ubisoft",
+    "plataforma": "Multi"
+  }
+]
