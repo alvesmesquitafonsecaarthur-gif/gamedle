@@ -1,11 +1,11 @@
 Documentação do Projeto: Gamdle de Navegador Web
-Este documento explica de forma simples e direta o funcionamento do programa Gamdle de Navegador Web, criado para demonstrar como o computador organiza tarefas do dia a dia, como navegar na internet e baixar arquivos.
+Este documento explica de forma simples e direta o funcionamento do programa Gamdle de Navegador Web, criado para demonstrar como o computador organiza tarefas do dia a dia, como navegar na internet e baixar arquivos. Criado para ajudar no tédio e estresse que o dia q dia proporciona fazendo com que tenha um tempo para se divertir mas ainda sim exercitarmos a mente.
 1. O que este programa faz?
 Quando usamos a internet, o navegador precisa lembrar por onde passamos para que o botão "Voltar" funcione. Ele também precisa organizar os arquivos que mandamos baixar para que eles não venham todos embaralhados.
 Este programa simula exatamente essas duas funções usando conceitos básicos de programação:
  • O Histórico de Páginas (Pilha): Guarda as páginas que você visitou para que você possa voltar nelas na ordem correta.
  • A Fila de Downloads (Fila): Organiza os arquivos que você deseja baixar, garantindo que o primeiro que você pediu seja o primeiro a ser baixado.
-2. Como as coisas funcionam por dentro (Explicação para leigos)
+2. Como as coisas funcionam por dentro
 Para organizar os dados, o programa utiliza duas lógicas muito comuns no nosso cotidiano:
  • A Pilha (LIFO - O último a entrar é o primeiro a sair):
    • Exemplo prático: Pense em uma pilha de pratos limpos em cima da mesa. O último prato que você lava e coloca em cima é o primeiro que você pega para usar.
