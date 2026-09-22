@@ -32,13 +32,13 @@ Para quem quer rodar e testar o código no computador:
 
  • Como executar:
 
-   • Salve o código em um arquivo de texto com o nome navegador.c.
+   • Salve o código em um arquivo de texto com o nome (navegador.c)
 
    • Abra a tela preta de comandos (Terminal ou Prompt de Comando) na pasta onde salvou o arquivo.
 
-   • Digite o comando para compilar: gcc navegador.c -o navegador
+   • Digite o comando para compilar: (gcc navegador.c -o navegador)
 
-   • Digite o comando para rodar: ./navegador (ou apenas navegador no Windows).
+   • Digite o comando para rodar: (./navegador) ou apenas (navegador) no Windows.
 
  • O que vai acontecer: O programa vai rodar sozinho no terminal, mostrando passo a passo a simulação de navegação pelas páginas web e, em seguida, executando a fila de downloads na ordem certa.
 
